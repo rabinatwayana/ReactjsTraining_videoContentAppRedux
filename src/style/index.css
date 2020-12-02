@@ -1,0 +1,131 @@
+.container-fluid {
+  /* background-color: rgba(12, 1, 41, 0.959); */
+  background-color: #212121;
+  /* background-color: rgba(var(--tmdbDarkBlue), 1); */
+  width: 100%;
+  padding-bottom: 30px;
+  /* height:100vh */
+}
+.text-white {
+  color: whitesmoke;
+}
+.center {
+  text-align: center;
+}
+.btn-style {
+  width: 150px;
+  height: 35px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cardimg {
+  height: 13rem;
+  width: 15rem;
+  z-index: 500;
+
+  border-radius: 10px;
+}
+
+.cardimg-single {
+  height: 20rem;
+}
+.card-body {
+  padding-top: 3px;
+  /* padding-bottom:10px; */
+  height: 26px;
+  display: block;
+  z-index: 500;
+}
+.col-md-2 {
+  margin-top: 15px;
+}
+.itemCenter {
+  justify-self: center;
+  justify-content: end;
+}
+.btn {
+  background: whitesmoke;
+
+  color: rgba(19, 19, 97, 0.815);
+  margin-top: 20px;
+  margin-left: calc(50vw - 175px);
+  font-weight: bold;
+}
+
+.card-text {
+  font-weight: 700;
+  color: black;
+  font-size: 16px;
+}
+
+.card {
+  border-radius: 10px;
+  width: 11rem;
+}
+
+.card-single {
+  width: 18rem;
+}
+.side-column {
+  height: 350px;
+  background-color: #313131;
+  margin-bottom: 10px;
+  overflow-y: auto;
+  margin-top: -7px;
+}
+
+.postionstyle {
+  position: relative;
+}
+.ratingposition {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.postionstyle:hover .ratingposition {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.postionstyle:hover .cardimg {
+  opacity: 0.5;
+}
+
+.btnstyle {
+  position: absolute;
+  color: whitesmoke;
+
+  width: 90px;
+
+  /* background: rgb(9, 141, 38); */
+  background: rgb(19, 78, 112);
+  margin-top: 150px;
+  margin-left: 40px;
+  z-index: 1000;
+}
+.search {
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: whitesmoke;
+  margin-left: 747px;
+}
+
+.search-button {
+  border-radius: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+/* .row{
+    margin-left: 0px;
+} */
